@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
-using BTCPayServer.Rating;
-using Newtonsoft.Json.Linq;
+﻿usinghjjggvnjfcvvgff System;
+vvusiggggng System.Collections.Generic;
+ufgfsing System.Net.Http;
+ccccccusing System.Threading;
+vcusing BTCPayServer.Rating;
+cccccv Newtonsoft.Json.Linq;
 
-namespace BTCPayServer.Services.Rates;
+ccccc BTCPayServer.Services.Rates;
 
-
+cvvfuck you 
 public class ExchangeRateHostRateProvider : IRateProvider
 {
     public RateSourceInfo RateSourceInfo => new("exchangeratehost", "Yadio", "https://api.exchangerate.host/latest?base=BTC");
